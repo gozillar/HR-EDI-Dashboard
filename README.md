@@ -1,45 +1,128 @@
-# HR Recruitment Analytics Dashboard – EDI (Equity, Diversity &amp; Inclusion)
+# HR Recruitment Analytics Dashboard – EDI (Equity, Diversity & Inclusion)
 
-This Power BI dashboard provides an end-to-end view of applicant diversity across the recruitment lifecycle, enabling HR and school leadership to monitor representation, identify drop-off points, and support evidence-based EDI reporting. It brings together applicant pipeline data across recruitment stages (e.g., shortlisting, interviews, offers, contract issued, withdrawals, rejections) and visualizes outcomes by ethnic group and academic year for quick diagnosis and trend monitoring. 
+## Project Overview
+
+This Power BI project presents an **HR Recruitment Analytics Dashboard** designed to analyse **equity, diversity, and applicant progression** across the recruitment lifecycle. The dashboard enables HR teams and senior leadership to assess representation, identify potential disparities across recruitment stages, and support **evidence-based decision-making** under a new management structure.
+
+The solution visualises recruitment outcomes across key stages—including application, shortlisting, interviews, offers, contract issuance, withdrawals, and rejections—and enables comparisons by **ethnic group** and **academic year**.
+
+> **Source:** HR EDI Data Extract (2025)
+
+---
 
 ## Data Source & Scope
-- Source: HR Recruitment Data Extract (2025)
-- Coverage:
-    - 3,000+ recruitment records
-    - Two academic years (2023–2024 and 2024–2025)
-    - Data collected under a new management structure
-- Granularity: Individual applicant records and recruitment stage outcomes
-- Dimensions:
-    - Academic Year
-    - Job Applied For
-    - Recruitment Stage
-    - Ethnic Group
-- Use Case: Recruitment pipeline analysis, EDI monitoring, leadership reporting
 
-This dataset provides a robust, post-transition baseline for monitoring recruitment outcomes and diversity trends following organisational change, enabling leadership to track progress and identify early signals requiring intervention.
+* **Dataset:** HR Recruitment Data Extract (2025)
+* **Records:** 3,000+ recruitment records
+* **Timeframe:** Two academic years (2023–2024, 2024–2025)
+* **Context:** Data collected under a **new management structure**
+* **Granularity:** Individual applicant-level recruitment outcomes
 
-## Key Questions the Dashboard Answers
-- How diverse is the applicant pool overall and by academic year? 
-- Where do candidates from different ethnic groups progress or drop off within recruitment stages? (Grouped & ungrouped stage views) 
-- Are there observable shifts in ethnic representation year-on-year (e.g., 2023–2024 vs 2024–2025)? 
-- What is the relationship between applications, roles, and average applications per role for the selected period? 
+### Key Dimensions
 
+* Academic Year
+* Job Applied For
+* Recruitment Stage
+* Ethnic Group
 
-## What’s Included
-- KPI summary tiles (e.g., total applications, jobs, average applications per role) and slicers (Academic Year, Job Applied For) for fast segmentation. 
-- Year-on-year percentage distribution of applicants by ethnic group for diversity trend tracking. 
-- A stage-by-stage recruitment pipeline breakdown showing applicant counts by ethnic group across key stages, with both grouped/sorted and ungrouped/unsorted views to support detailed operational analysis. 
-- Clear sourcing and repeatable reporting structure (“Source: HR EDI Data 2025”) suitable for compliance and governance contexts. 
+### Primary Use Cases
 
+* Recruitment pipeline analysis
+* EDI monitoring and reporting
+* Leadership and governance reporting
+* Baseline establishment following organisational change
 
-## Suggested Usage
-- Monthly/termly HR review: monitor representation shifts and pipeline conversion.
-- EDI reporting: support narrative with quantified, filterable evidence.
-- Process improvement: locate stage-specific disparities and prioritize interventions.
+---
 
+## Analytical Objectives
+
+* Establish a **clear EDI baseline** under new management
+* Monitor **representation and progression** across recruitment stages
+* Identify **stage-specific drop-offs** by ethnic group
+* Enable **transparent, repeatable EDI reporting**
+
+---
+
+## Key Questions Answered
+
+* How does applicant diversity vary across academic years?
+* At which recruitment stages do applicants from different ethnic groups progress or exit?
+* Are there notable differences between early- and late-stage recruitment outcomes?
+* How do application volumes relate to role availability and recruitment throughput?
+
+---
+
+## Dashboard Features
+
+* KPI summary tiles:
+
+  * Total Applications
+  * Total Roles
+  * Average Applications per Role
+* Interactive slicers for:
+
+  * Academic Year
+  * Ethnicity
+  * Job Applied For
+* Year-on-year **percentage distribution** of applicants by ethnic group
+* Absolute **applicant volumes** by ethnicity and academic year
+* Recruitment funnel analysis with:
+
+  * **Grouped & sorted stages** for executive insight
+  * **Ungrouped & unsorted stages** for operational diagnostics
+* Consistent stage taxonomy and clear data source attribution
+
+---
+
+## Visual Overview
+
+### Executive Dashboard Overview
+
+> *(Insert overall dashboard screenshot here)*
+
+### Year-on-Year Ethnic Distribution (% View)
+
+> *(Insert % Distribution of Ethnic Groups per Year visual here)*
+
+### Applicant Volumes by Ethnicity
+
+> *(Insert Applicants by Ethnic Groups & Academic Year visual here)*
+
+### Recruitment Funnel – Grouped View
+
+> *(Insert Grouped & Sorted Recruitment Stages visual here)*
+
+### Recruitment Funnel – Detailed View
+
+> *(Insert Ungrouped & Unsorted Recruitment Stages visual here)*
+
+---
 
 ## Impact Summary
-- Enabled EDI transparency across the full recruitment funnel by consolidating applicant counts and outcomes across multiple recruitment stages into a single interactive view, making it easier to spot where representation changes through the pipeline. 
-- Improved decision readiness for HR and leadership through year-on-year ethnicity distribution reporting (e.g., comparative views for 2023–2024 vs 2024–2025), supporting evidence-based recruitment planning and accountability. 
-- Accelerated root-cause analysis of recruitment outcomes using both grouped and ungrouped stage visualizations—allowing stakeholders to drill from high-level bottlenecks (e.g., rejections/withdrawals) into more granular workflow steps (e.g., specific interview stages, offer/contract milestones). 
-- Strengthened governance and consistency by standardizing how diversity and recruitment pipeline data is presented (repeatable slicers, clear stage taxonomy, and explicit source attribution), reducing reliance on manual reporting and ad-hoc spreadsheets.
+
+* **Established an evidence-based EDI baseline** by transforming 3,000+ recruitment records across two academic years into a structured, interactive Power BI solution.
+* **Improved visibility into recruitment pipeline equity** by surfacing how applicant representation changes across recruitment stages.
+* **Reduced reliance on manual reporting** by consolidating recruitment and diversity metrics into a single, repeatable analytics dashboard.
+* **Strengthened leadership accountability and governance** through clear KPIs, consistent definitions, and defensible reporting outputs.
+
+---
+
+## Tools & Technologies
+
+* Power BI
+* Power Query (data transformation)
+* DAX (measures & KPIs)
+* HR Recruitment Data Extracts (CSV/Excel source)
+
+---
+
+## Notes
+
+This project focuses on post-management-change recruitment analysis and is designed to be extensible as additional academic years and dimensions become available.
+
+---
+
+## Author
+
+**Chigozie Okeke**
+*Data & Analytics | HR Systems | Power BI*
