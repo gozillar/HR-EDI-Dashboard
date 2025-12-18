@@ -1,5 +1,4 @@
-# HR-EDI-Dashboard
-HR Recruitment Analytics Dashboard – EDI (Equity, Diversity &amp; Inclusion)
+# HR Recruitment Analytics Dashboard – EDI (Equity, Diversity &amp; Inclusion)
 
 This Power BI dashboard provides an end-to-end view of applicant diversity across the recruitment lifecycle, enabling HR and school leadership to monitor representation, identify drop-off points, and support evidence-based EDI reporting. It brings together applicant pipeline data across recruitment stages (e.g., shortlisting, interviews, offers, contract issued, withdrawals, rejections) and visualizes outcomes by ethnic group and academic year for quick diagnosis and trend monitoring. 
 
