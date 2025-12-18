@@ -5,25 +5,15 @@ This Power BI dashboard provides an end-to-end view of applicant diversity acros
 ## Data Source & Scope
 - Source: HR Recruitment Data Extract (2025)
 - Coverage:
-
-3,000+ recruitment records
-
-Two academic years (2023–2024 and 2024–2025)
-
-Data collected under a new management structure
-
+    - 3,000+ recruitment records
+    - Two academic years (2023–2024 and 2024–2025)
+    - Data collected under a new management structure
 - Granularity: Individual applicant records and recruitment stage outcomes
-
 - Dimensions:
-
-Academic Year
-
-Job Applied For
-
-Recruitment Stage
-
-Ethnic Group
-
+    - Academic Year
+    - Job Applied For
+    - Recruitment Stage
+    - Ethnic Group
 - Use Case: Recruitment pipeline analysis, EDI monitoring, leadership reporting
 
 This dataset provides a robust, post-transition baseline for monitoring recruitment outcomes and diversity trends following organisational change, enabling leadership to track progress and identify early signals requiring intervention.
